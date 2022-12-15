@@ -14,5 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $title_page = 'Benvenuti nella homepage';
+    return view('welcome', compact('title_page'));
+})->name('home');
+
+Route::get('/contacts', function () {
+    $title_page = 'Benvenuti nei contatti';
+    return view('welcome', compact('title_page'));
+})->name('contacts');
+
+Route::get('/shop', function () {
+    $title_page = 'Benvenuti nello shop';
+    return view('welcome', compact('title_page'));
+})->name('shop');

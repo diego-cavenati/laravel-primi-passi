@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='author' content='Diego Cavenati'>
-    <title>Home</title>
+    <title>Shop</title>
     <!-- Font awesome -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'>
     <!-- Bootstrap CSS -->
@@ -17,9 +17,9 @@
 <body>
 
     <nav class="nav justify-content-center  ">
-        <a class="nav-link active" href="{{route('home')}}">Homepage</a>
+        <a class="nav-link" href="{{route('home')}}">Homepage</a>
         <a class="nav-link" href="{{route('contacts')}}">Contacts</a>
-        <a class="nav-link" href="{{route('shop')}}">Shop</a>
+        <a class="nav-link active" href="{{route('shop')}}">Shop</a>
     </nav>
 
     <h1 class="text-center">{{ $title_page }}</h1>

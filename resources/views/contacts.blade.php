@@ -17,8 +17,8 @@
 <body>
 
     <nav class="nav justify-content-center  ">
-        <a class="nav-link active" href="{{route('home')}}">Homepage</a>
-        <a class="nav-link" href="{{route('contacts')}}">Contacts</a>
+        <a class="nav-link" href="{{route('home')}}">Homepage</a>
+        <a class="nav-link active" href="{{route('contacts')}}">Contacts</a>
         <a class="nav-link" href="{{route('shop')}}">Shop</a>
     </nav>
 
